@@ -1,0 +1,150 @@
+/*
+
+  Theme Name: MealZo
+  Theme URL: http://www.MealZo.com
+  Author: Eng : Moe Jehad
+  Description: هذا القالب ملك لموقع MealZo فقط .
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {margin: 0;padding: 0;font-family: 'Tajawal', sans-serif;;}
+* {transition: all 0.2s ease;-webkit-transition: all 0.2s ease;-moz-transition: all 0.2s ease;-o-transition: all 0.2s ease;}
+body {direction: rtl;}
+
+
+/*  start header style   */
+header nav {margin: 20px 0;}
+header nav .nav-item {margin: 0 7px;}
+header nav #navbarNav {z-index: 1;}
+header nav .nav-link {font-size: 17px;font-weight: 600;color: #4F5153!important;}
+header nav .nav-link:hover {color: #f05b29!important;}
+.navbar-light .navbar-nav .ar {color: #f05b29!important;}
+.navbar-brand {margin-right: 0;margin-left: 10px;}
+header{overflow: hidden;font-weight: 400;background-color: #F6F9F7;height: 100vh;text-align: right;}
+.content .txt {margin-top: 100px;}
+.content .txt h1 {font-weight: bold;color: #4F5153;margin-bottom: 20px;font-size: 60px;font-family: 'Raleway', sans-serif}
+.content .txt p , #subs .head p , .how p , .steps .meta p , #download .head p , #contact p {color: #909090;margin-bottom: 30px;}
+.content .txt .btn {background: #f77220;border: 0;border-radius: 50px;padding: 10px 35px;transition: all 250ms ease-in;box-shadow: 0 2px 30px 0 rgba(0,0,0,.2)}
+.content img {margin-top: -470px;margin-left: -370px;}
+/*  start header style   */
+
+
+/*  start subs style   */
+#subs {padding: 70px 0;overflow: hidden;text-align: right;}
+#subs .head {max-width: 500px;margin: auto;}
+#subs .head h1 {font-weight: bold;margin-bottom: 20px;color: #4F5153;}
+.sub {background-color: #ff7a44;background-image: url(../images/subsAR.png);color: rgb(255, 255, 255);display: flex;-webkit-box-pack: end;justify-content: flex-end;box-sizing: border-box;
+     background-repeat: no-repeat;background-position: bottom;background-size: 100%;border-radius: 14px;
+    flex-flow: column;padding: 20px;height: 175px;}
+.sub h4 {margin-bottom: 1rem;font-weight: 400;}
+.sub h1 {margin-bottom: 1rem;}
+/*  end subs style   */
+
+
+/*  start how style   */
+.how {padding: 100px 0;overflow: hidden;text-align: right;}
+.how h1 {color: #505254;font-weight: bold;margin-bottom: 20px;}
+.steps .icon {background: #F6F9F7;height: 100px;width: 100px;margin: auto;margin-bottom: 15px;
+  border-radius: 50%;display: flex;justify-content: center;align-items: center; border: 1px dashed #ff7b45;}
+.steps .meta h4 {font-weight: 600;color: #515355;}
+/*  end how style   */
+
+
+
+
+/*  start find style   */
+#find {background-color: #F76C1D ;color: #fff;padding: 50px 0;height: 300px;overflow: hidden;
+  background-image: url(../images/findAR.png);background-position: left bottom;background-repeat: no-repeat;background-size: 62.499999965%;}
+#find .map img {margin-top: -100px;}
+#find .details h1 {margin: 25px 0;}
+/*  end find style   */
+
+
+
+/*  start download style   */
+#download {padding: 100px 0;text-align: center;height: 370px;overflow: hidden;}
+#download .head {text-transform: capitalize;}
+#download .head h1 {font-weight: bold;color: #515355;margin-bottom: 20px;font-size: 35px;}
+#download .head .btn {padding: 10px 20px;margin: 0 5px;background: #f77220;border: 0;border-radius: 50px;padding: 10px 35px;transition: all 250ms ease-in;box-shadow: 0 2px 30px 0 rgba(0,0,0,.2);}
+#download .mock img {margin-top: -40px;}
+/*  end download style   */
+
+
+/*  start contact style   */
+#contact {background: #f6f9f7;padding: 70px 0;overflow: hidden;text-align: right;}
+#contact h1 {font-weight: bold;color: #515355;margin-bottom: 20px;}
+#contact form input  {margin-bottom: 10px;height: 45px;border: 0;}
+#contact form textarea {margin-bottom: 10px;border: 0;}
+#contact form .btn {background: #f77220;border: 0;padding: 10px 35px;transition: all 250ms ease-in;width: 20%;}
+#contact .contactMeta {border-right: 1px solid #fff;height: 185px;overflow: hidden;}
+#contact .contactMeta .cont {margin: 15px 0 0 15px;display: table;}
+#contact .contactMeta .cont i {float: right;width: 40px;height: 40px;background: #f77220;color: #fff;
+  display: flex;justify-content: center;align-items: center;border-radius: 5px;margin-left: 15px;}
+#contact .contactMeta .cont .details {float: right;}
+#contact .contactMeta .cont span {display: block;font-weight: 600;color: #515355;}
+/*  end contact style   */
+
+
+/*  start footer style   */
+footer {padding: 20px 0;}
+footer h6 {margin: 0;font-weight: 400;}
+/*  end footer style   */
+
+
+
+/*  start responsive */
+
+@media screen and (max-width : 1024px) {
+  .content img {margin-left: -560px;}
+  #download .head .btn {padding: 9px 15px;margin: 0 1px;}
+}
+
+@media screen and (max-width : 768px) {
+  header nav {margin: 0;z-index: 1;background: #fff;}
+  header nav .close {display: none;}
+  header nav .navbar-toggler {border: 0;}
+  header {height: 55vh;}
+  .content .txt {z-index: 1;text-align: center;max-width: 56%;margin: 100px auto;}
+  .content img {margin-left: -800px;width: 500px;}
+  .sub {margin-bottom: 20px;}
+  .how .head {text-align: center;}
+  #find .map img {margin-top: -45px;width: 350px;}
+  #find .details h1 {font-size: 33px;margin-top: 50px;}
+  #download .head h1 {font-size: 30px;}
+  .content .txt p, #subs .head p, .how p, .steps .meta p, #download .head p, #contact p {margin-bottom: 25px;font-size: 14px;}
+  #contact form .btn {width: 35%;}
+}
+
+@media screen and (max-width : 736px) {
+  header {height: 150vh;}
+  .sub {background-size: 80%;height: 200px;}
+  .sub h4 , .sub h1 {margin-bottom: 1.5rem;  }
+  #find .details h1 {font-size: 26px;}
+  #find .details {right: -300px;}
+  #find .map img {margin-top: -45px;width: 550px;left: -445px;position: absolute;}
+  #download .mock img {display: none;}
+  #contact .contactMeta {border-right: 0;}
+  #contact .contactMeta .cont {margin: 15px 0 0 0;}
+}
+
+@media screen and (max-width : 414px) {
+  header {height: 80vh;}
+  .content img {margin-left: -790px;margin-top: -550px;}
+  .sub {background-size: 100%;}
+  #find .details h1 {margin-top: 0;margin-bottom: 7px;}
+  #find .details p {max-width: 70%;margin: auto;}
+  #find .map img {margin-top: 0;width: 450px;left: -120px;}
+  #find .details {right: 0;}
+}
+
+@media screen and (max-width : 375px) {
+  .content .txt {max-width: 85%;}
+  .content img {display: none;}
+  .sub {height: 180px;}
+  .sub h4, .sub h1 {margin-bottom: 1rem;}
+}
+/*  end responsive */
